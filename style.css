@@ -4,44 +4,105 @@
 
 }
 
+.mobile{
+    display: flex;
+}
+
+.desktop{
+    display: none;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #c7464e;
+  position: relative;
+}
+
+
+.topnav #myLinks {
+  display: none;
+}
+
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+
+.topnav a.icon {
+  background: #c7464e;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
 body {
 
-background-color: #d090e3;
+background-color: #ffffff;
 color: #666666;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 margin: 0;
 
 }
 
+
 header {
 
-    background-color: #78148c;
+    background-color: #000000;
     color: #ffffff;
     padding: 1em;
+
+}
+
+footer {
+
+    background-color: #ffffff;
+    color: #bbbbbb;
+    padding: 1em;
+    text-align: center;
 
 }
 
 
 h1 {
 
-    text-align: center;
     font-size: 1.5em;
+    color: #8ac999;
+
+}
+
+main {
+
+    background-color: #white;
+    padding: 5em;
 
 }
 
 .logo{
 
-    margin: auto;
-    width: 15em;
-    padding: 10px;
+    text-align: center;
 
 }
 
+img {
+width: 20%;
+max-width: 500px;
+height: auto;
+min-width: 200px;
+}
 
 nav {
 
     font-size: 1.2em;
     text-align: center;
+    background-color: #c7464e;
 
 }
 
@@ -49,19 +110,19 @@ nav a:link {
 
 
 text-decoration: none;
-color: #259756;
+color: white;
 
 }
 
 nav a:visited {
 
-    color: #095a12;
+    color: lightgray;
 
 }
 
 nav a:hover {
 
-    color: #b71e1e;
+    color: #8ac999;
 
 }
 
@@ -103,6 +164,17 @@ nav li {
 
 }
 
+/*.mobile {
+
+    display: none;
+}
+
+.desktop{
+
+    display: flex;
+}
+*/
+
 nav ul {
 
     display: flex;
@@ -127,6 +199,14 @@ nav ul {
 
         /*float: left;*/
 
+    }
+
+    .desktop   {
+        display: flex;
+    }
+
+    .mobile {
+        display: none;
     }
 
     nav{
