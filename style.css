@@ -12,7 +12,7 @@
 
 .topnav {
   overflow: hidden;
-  background-color: #c7464e;
+  background-color: #BF454F;
   position: relative;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .topnav a {
-  color: white;
+  color: #DFF2E2;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -29,7 +29,7 @@
 }
 
 .topnav a.icon {
-  background: #c7464e;
+  background: #BF454F;
   display: block;
   position: absolute;
   right: 0;
@@ -37,20 +37,20 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #DFF2E2;
   color: #666666;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
 }
 
 header {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #262626;
+  color: #DFF2E2;
   padding: 1em;
 }
 
 footer {
-  background-color: #000000;
+  background-color: #262626;
   color: #bbbbbb;
   padding: 1em;
   text-align: center;
@@ -59,11 +59,11 @@ footer {
 
 h1 {
   font-size: 1.5em;
-  color: #8ac999;
+  color: #88BF90;
 }
 
 main {
-  background-color: #white;
+  background-color: ##DFF2E2;
 }
 
 .logo {
@@ -80,12 +80,12 @@ img {
 nav {
   font-size: 1.2em;
   text-align: center;
-  background-color: #c7464e;
+  background-color: #BF454F;
 }
 
 nav a:link {
   text-decoration: none;
-  color: white;
+  color: #DFF2E2;
 }
 
 nav a:visited {
@@ -93,7 +93,7 @@ nav a:visited {
 }
 
 nav a:hover {
-  color: #8ac999;
+  color: #88BF90;
 }
 
 nav ul {
@@ -132,8 +132,14 @@ nav li {
   flex-direction: column;
   justify-content: center;
   padding: 5em;
-  background-color: #c7464e;
-  color: white;
+  background-color: #BF454F;
+  color: #DFF2E2;
+}
+
+.section1 h1 {
+
+  color: #698C6E;
+
 }
 
 .socialIconArea {
@@ -159,7 +165,7 @@ nav li {
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  color: #8ac999;
+  color: #88BF90;
   z-index: 999;
 }
 
@@ -169,7 +175,7 @@ nav li {
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  color: white;
+  color: #DFF2E2;
   z-index: 999;
   width: 20px;
 }
