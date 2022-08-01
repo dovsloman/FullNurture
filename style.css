@@ -94,7 +94,7 @@ h1 {
 }
 
 main {
-  background-color: ##dff2e2;
+  background-color: #dff2e2;
 }
 
 .logo {
@@ -433,9 +433,7 @@ nav li {
 }
 
 @media (min-width: 1024px) {
-  header {
-    /*float: left;*/
-  }
+
 
   .desktop {
     display: flex;
@@ -449,8 +447,7 @@ nav li {
     display: none;
   }
 
-  nav {
-  }
+
 
   nav ul {
     padding-left: 10%;
