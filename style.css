@@ -281,6 +281,15 @@ nav li {
   height: 0;
 }
 
+.section2-text h3{
+  color: #262626;
+}
+
+.section2 ul {
+  list-style-type: none;
+}
+
+
 .section1 h1 {
   color: #698c6e;
 }
