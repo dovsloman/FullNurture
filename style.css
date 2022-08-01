@@ -198,8 +198,6 @@ nav li {
   flex-direction: column;
   justify-content: left;
   padding: 5em;
-  align-items: left;
-  align-content: left;
   background-color: hsla(355, 49%, 51%, 1);
   color: silver;
 }
