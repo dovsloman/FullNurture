@@ -95,7 +95,6 @@ h1 {
 
 main {
   background-color: ##dff2e2;
-  font-weight: bold;
 }
 
 .logo {
@@ -219,11 +218,11 @@ nav li {
 }
 
 .section2 h2 {
-  color: #88bf90;
+  color: #262626;
 }
 
 .section1 h2 {
-  color: #698c6e;
+  color: #262626;
 }
 
 .section2-bg::before {
@@ -317,7 +316,7 @@ nav li {
 }
 
 .section2-cert-text h2 {
-  color: #88bf90;
+  color: #262626;
   margin-left: -2vh !important;
 }
 

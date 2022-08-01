@@ -20,11 +20,10 @@
       </div>
     </header>
 
-    <nav>
-
+        <nav>
       <ul class="desktop">
         <li><a href="index.html">Home</a></li>
-        <li><a href="aboutfn.html">About Full Nurture</a></li>
+        <!--<li><a href="aboutfn.html">About Full Nature</a></li>-->
         <li><a href="aboutme.html">About Me</a></li>
         <li><a href="packages.html">Packages & Pricing</a></li>
         <li><a href="faq.html">FAQ</a></li>
@@ -33,26 +32,24 @@
       </ul>
 
       <div class="mobile">
-      <div class="topnav">
-        <a><br></a>
+        <div class="topnav">
+          <a><br /></a>
 
-        <div id="myLinks">
-        <a href="index.html">Home</a>
-        <a href="aboutfn.html">About Full Nurture</a>
-        <a href="aboutme.html">About Me</a>
-        <a href="packages.html">Packages & Pricing</a>
-        <a href="faq.html">FAQ</a>
-        <a href="printouts.html">Printouts</a>
-        <a href="contact.html">Contact</a>
+          <div id="myLinks">
+            <a href="index.html">Home</a>
+            <!--<a href="aboutfn.html">About Full Nurture</a>-->
+            <a href="aboutme.html">About Me</a>
+            <a href="packages.html">Packages & Pricing</a>
+            <a href="faq.html">FAQ</a>
+            <a href="printouts.html">Printouts</a>
+            <a href="contact.html">Contact</a>
+          </div>
+
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </div>
-
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
       </div>
-    </div>
-
-
     </nav>
 
     <body>
@@ -74,7 +71,7 @@
 
 <div class="section2">
           <div class="container">
-  <form action="action_page.php">
+  <form action="/contact.php" method="post">
 
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -83,7 +80,7 @@
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
 
-    <label for="subject">Subject</label>
+    <label for="subject">Message</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
