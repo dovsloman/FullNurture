@@ -159,6 +159,10 @@ nav li {
   align-items: center;
   align-content: space-around;
 }
+
+.section1.header{
+  height: 50px; padding: 50px;
+}
 .section1-column {
   display: flex;
   flex-direction: column;
