@@ -48,6 +48,11 @@ textarea {
   resize: vertical;
 }
 
+table, th, td {
+  border-collapse: separate;
+  border-spacing: 10px 1rem;
+}
+
 input[type="submit"] {
   background-color: #88bf90;
   color: #bf454f;
